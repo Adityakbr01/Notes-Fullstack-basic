@@ -1,0 +1,69 @@
+# Logs
+logs/
+*.log
+logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment variables
+.env
+.env.*
+
+# Build outputs
+/build/
+/dist/
+/public/build/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+*.lock
+.mongorc.js
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+/coverage/
+.jest/
+.nyc_output/
+
+# React-specific
+.cache/
+*.cache-loader
+*.map
+public/static/
+public/assets/
+
+# TypeScript
+*.tsbuildinfo
+
+# Miscellaneous
+*.tmp
+*.log
+*.lock
+
+# Next.js (if used for SSR/SSG)
+.next/
+out/
